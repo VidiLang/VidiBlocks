@@ -7,7 +7,8 @@ Available for platforms:
 - Windows 32bit and 64bit
 - Mac OS
 - Linux
-- Android
+- [Android](https://play.google.com/store/apps/details?id=com.davidberneda.Vidi_Blocks)
 - iOS
 
+![Vidi Blocks](media/Vidi_Blocks.png "Vidi Blocks")
 
