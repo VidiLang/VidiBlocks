@@ -111,7 +111,8 @@ uses
 
 function GetDocumentFile(const AName:String):String;
 begin
-  result:=TPath.Combine(TPath.GetDocumentsPath,AName);
+  result:=TPath.Combine(TPath.GetDocumentsPath,'VidiBlocks');
+  result:=TPath.Combine(result,AName);
 end;
 
 function ScoreFile:String;

@@ -4,7 +4,7 @@ unit Unit_Texts;
 interface
 
 const
-  Vidi_Block_Version='1.0.8';
+  Vidi_Block_Version='1.0.9';
   Vidi_Text_ScoreFile='Vidi_Blocks_High_Score.txt';
   Vidi_Text_BestScoresFile='Vidi_Blocks_Best_Scores.txt';
   Vidi_Text_SettingsFile='Vidi_Blocks_Settings.txt';

@@ -4,7 +4,9 @@ program VidiBlocks;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  FMX.Skia,
+
+  //FMX.Skia,
+
   Unit_Blocks in 'fmx\Unit_Blocks.pas' {FormMain},
   Unit_Settings in 'fmx\Unit_Settings.pas' {FormSettings},
   Unit_Texts in 'fmx\Unit_Texts.pas',
@@ -20,7 +22,7 @@ uses
 {$R *.res}
 
 begin
-  GlobalUseSkia := False;
+  //GlobalUseSkia := False;
 
   {$IFOPT D+}
   ReportMemoryLeaksOnShutdown:=True;
